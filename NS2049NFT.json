@@ -1,0 +1,33 @@
+{
+"name": "oooWE test",
+"description": "We’ve started new currencies. Can we start new countries?",
+"attributes": [
+{
+"trait_type": "are",
+"value": "really"
+},
+{
+"trait_type": "we",
+"value": "just"
+},
+{
+"trait_type": "doing",
+"value": "testing"
+},
+{
+"trait_type": "Year",
+"value": "2023"
+}
+],
+"image": "https://www.zohowebstatic.com/sites/zweb/images/pagesense/introduction-abt-testing.jpg",
+"properties": {
+"files": [
+{
+"uri": "https://www.zohowebstatic.com/sites/zweb/images/pagesense/introduction-abt-testing.jpg",
+"type": "image/png"
+}
+],
+"category": "image"
+},
+"external_url": "bink.com"
+}

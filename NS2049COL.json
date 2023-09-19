@@ -1,0 +1,15 @@
+{
+    "name": "We Just Testin'",
+    "symbol": "jTestin",
+    "description": "Testin",
+    "image": "https://www.zohowebstatic.com/sites/zweb/images/pagesense/introduction-abt-testing.jpg",
+    "properties": {
+    "files": [
+    {
+    "uri": "https://www.zohowebstatic.com/sites/zweb/images/pagesense/introduction-abt-testing.jpg",
+    "type": "image/png"
+    }
+    ],
+    "category": "image"
+    }
+}

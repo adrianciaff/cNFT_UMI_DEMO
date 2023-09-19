@@ -1,0 +1,27 @@
+{
+  "name": "superteam_world_tour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/mpl-bubblegum": "^1.0.0-alpha.9",
+    "@metaplex-foundation/mpl-token-metadata": "^3.0.0-alpha.26",
+    "@metaplex-foundation/umi": "^0.8.8",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.8.8",
+    "@solana/web3.js": "^1.78.4",
+    "elliptic": "^6.5.4",
+    "fast-csv": "^4.3.6",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/bs58": "^4.0.1",
+    "@types/elliptic": "^6.4.14",
+    "@types/node-fetch": "^2.6.4",
+    "@types/papaparse": "^5.3.8"
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Superteam World Tour: Canada",
+    "description": "Celebrate your attendance at the Superteam World Tour 2023 with this POAP, marking Solana's HYPERDRIVE hackathon.",
+    "attributes": [
+    {
+    "trait_type": "Location",
+    "value": "Canada"
+    },
+    {
+    "trait_type": "Artist",
+    "value": "Djiiz"
+    },
+    {
+    "trait_type": "Year",
+    "value": "2023"
+    }
+    ],
+    "image": "https://shdw-drive.genesysgo.net/5YoG7aZVXHSuNzEXJPd2qMUaH99pvY3QxsqZNxnGDqZF/POAP.jpg",
+    "properties": {
+        "files": [
+        {
+        "uri": "https://shdw-drive.genesysgo.net/5YoG7aZVXHSuNzEXJPd2qMUaH99pvY3QxsqZNxnGDqZF/POAP.jpg",
+        "type": "image/png"
+        }
+        ],
+        "category": "image"
+    },
+    "external_url": "https://solana.com/hyperdrive"
+    }
