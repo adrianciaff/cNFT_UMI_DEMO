@@ -19,6 +19,8 @@ async function main() {
   const myKeypair = umi.eddsa.createKeypairFromSecretKey(keys.secretKey);  
 
   const myKeypairSigner = createSignerFromKeypair(umi, myKeypair);
+
+  //create keys for the collection and merkleTree
   const merkleTree = generateSigner(umi)
   const collectionMint = generateSigner(umi)
 
@@ -34,9 +36,16 @@ async function main() {
 
   const builder = await createTree(umi, {
     merkleTree,
-    maxDepth: 14,
-    maxBufferSize: 64,
-    canopyDepth: 11,
+    
+    //This is for the proper setup - 1.1 SOL Cost
+    // maxDepth: 14,
+    // maxBufferSize: 64,
+    // canopyDepth: 11,
+
+    //This is for testing .01 SOL
+    maxDepth: 3,
+    maxBufferSize: 8,
+    canopyDepth: 0,
 
   });
   await builder.sendAndConfirm(umi);
